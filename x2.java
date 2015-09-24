@@ -1,5 +1,5 @@
 //////// Exercise x2:  modularize exercise x1, and add dog to chase hero.
-//////// Whoever Whoever  (CST 112; today's date?)
+//////// Christopher Clark  (CST 112; Sept. 24, 2015)
 
 //////// Please change these to your name and today's date.
 String author=  "Christopher Clark";
@@ -77,3 +77,4 @@ void keyPressed() {
 }
    
    
+
