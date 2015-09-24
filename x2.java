@@ -2,8 +2,8 @@
 //////// Whoever Whoever  (CST 112; today's date?)
 
 //////// Please change these to your name and today's date.
-String author=  "Whoever Whatever";
-String title=  " ??? ";
+String author=  "Christopher Clark";
+String title=  " x2 ";
 String help=  " Click to relocate hero \n 'q' to quit; 'r' to reset. ";
 
 
@@ -77,4 +77,3 @@ void keyPressed() {
 }
    
    
-
