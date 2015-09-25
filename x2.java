@@ -15,7 +15,7 @@ float dogX, dogY;
 
 //// SETUP:  window size, initialization (start in middle of screen).
 void setup() {
-  size( 640,480);
+  size(640,480);
   horizon=  height/4;
   x=  width/2;
   y=  height/2;
@@ -54,14 +54,19 @@ void draw() {
   //Hero
   fill(255,0,0); 
   ellipse(x,y, 30,50);
-  text( "Pal", x,y );
-  
-   //// ACTION:  move (x,y) coordinates.
+  text( "Hero", x,y ); 
+  //// ACTION:  move (x,y) coordinates.
   x=  x + dx;
   y=  y + dy;
   
-  dog();
-  messages();
+  //Dog
+  fill(0,255,0);
+  ellipse(x+50,y+50, 30,50);
+  text("Pal", x+50,y+50);
+  x=  x + dx;
+  y=  y + dy;
+  
+  //messages();
 }
 
 //// SCENE:  sky, sun, tree, house, etc.
